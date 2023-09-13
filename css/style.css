@@ -40,6 +40,7 @@
 }
 
 /* general */
+
 ul
 {
     list-style: none;
@@ -47,7 +48,10 @@ ul
 
 a
 {
-    display: block;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color-neutra);
 }
 
 .container
@@ -59,9 +63,16 @@ a
 
 /*  HTML */
 /* header */
+header
+{
+    background-color: var(--color-secondary);
+    padding: 12px 0 7px 0;
+}
+
 #logo
 {
     width: 100px;
+    vertical-align: middle;
 }
 
 /* main */
