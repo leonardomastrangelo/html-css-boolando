@@ -176,6 +176,13 @@ h4
     font-size: 0.9em;
 }
 
+/* heart hover effect */
+.heart > span:hover
+{
+    color: var(--color-discount);
+    cursor: pointer;
+}
+
 /* footer */
 footer 
 {
