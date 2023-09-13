@@ -16,10 +16,11 @@
 }
 
 /* utilities */
-.debug 
+/* .debug 
 {
     border: 1px solid blue;
-}
+} */
+
 
 /* flex-utilities */
 .dflex 
@@ -58,7 +59,7 @@ a
 {
     display: inline-block;
     text-decoration: none;
-    padding: 5px;
+    padding-right: 10px;
     color: var(--color-neutra);
 }
 
@@ -75,6 +76,7 @@ header
 {
     background-color: var(--color-secondary);
     padding: 15px 0 10px 0;
+    margin-bottom: 40px;
 }
 
 #logo
@@ -87,7 +89,7 @@ header
 .card
 {
     width: calc(100% / 3);
-    padding: 5px;
+    padding: 0 20px 40px 0;
 }
 
 .img-section
@@ -157,3 +159,18 @@ h4
     text-decoration: line-through;
     font-size: 0.9em;
 }
+
+/* footer */
+footer 
+{
+    background-color: var(--color-primary);
+    color: var(--color-neutra);
+    padding: 20px;
+}
+
+footer ul
+{
+    padding: 6px 0;
+}
+
+
