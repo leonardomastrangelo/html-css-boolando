@@ -68,6 +68,7 @@ a
     max-width: 1200px;
     margin: 0 auto;
     padding: 5px;
+    position: relative;
 }
 
 /*  HTML */
@@ -105,7 +106,7 @@ main
 
 .img-section
 {
-    position: relative;;
+    position: relative;
 }
 
 .img-section img
@@ -113,6 +114,7 @@ main
     width: 100%;
     display: block;
 }
+
 
 .heart
 {
@@ -182,6 +184,23 @@ h4
     color: var(--color-discount);
     cursor: pointer;
 }
+
+/* img hover effect */
+.card {
+    position: relative;
+    display: inline-block;
+}
+.card .back {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.card:hover .back {
+    display: inline;
+}
+
 
 /* footer */
 footer 
