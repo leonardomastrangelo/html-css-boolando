@@ -77,6 +77,12 @@ header
     background-color: var(--color-secondary);
     padding: 15px 0 10px 0;
     margin-bottom: 40px;
+    height: 47px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #logo
@@ -86,6 +92,11 @@ header
 }
 
 /* main */
+main
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 .card
 {
     width: calc(100% / 3);
@@ -152,6 +163,11 @@ h4
 {
     color: var(--color-discount);
     font-size: 0.9em ;
+}
+
+.right
+{
+    font-size: 1.1em;
 }
 
 .deleted
