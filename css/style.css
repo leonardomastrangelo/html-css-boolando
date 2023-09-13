@@ -40,7 +40,10 @@
 }
 
 /* general */
-
+body
+{
+    font-size: 13px;
+}
 ul
 {
     list-style: none;
@@ -66,7 +69,7 @@ a
 header
 {
     background-color: var(--color-secondary);
-    padding: 12px 0 7px 0;
+    padding: 15px 0 10px 0;
 }
 
 #logo
@@ -80,4 +83,72 @@ header
 {
     width: calc(100% / 3);
     padding: 5px;
+}
+
+.img-section
+{
+    position: relative;;
+}
+
+.img-section img
+{
+    width: 100%;
+    display: block;
+}
+
+.heart
+{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: var(--color-neutra);
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.info
+{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
+.box
+{
+    color: var(--color-neutra);
+    display: inline-block;
+    padding: 5px;
+}
+
+.discount
+{
+    background-color: var(--color-discount);
+}
+
+.sostenibility
+{
+    background-color: var(--color-sostenibility);
+}
+
+h3
+{
+    font-size: 0.9em;
+}
+
+h4
+{
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.price
+{
+    color: var(--color-discount);
+    font-size: 0.9em ;
+}
+
+.deleted
+{
+    text-decoration: line-through;
+    font-size: 0.9em;
 }
