@@ -1,6 +1,5 @@
 /* palette */
-:root 
-{
+:root {
 	--color-neutra: #ffffff;
 	--color-primary: #1a1a1a;
 	--color-secondary: #ff6900;
@@ -23,24 +22,20 @@
 
 
 /* flex-utilities */
-.dflex 
-{
+.dflex {
     display: flex;
     flex-flow: row wrap;
 }
 
-.j-around 
-{
+.j-around {
     justify-content: space-around;
 }
 
-.j-between
-{
+.j-between {
     justify-content: space-between;
 }
 
-.a-center 
-{
+.a-center {
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -51,21 +46,19 @@ body
 {
     font-size: 13px;
 }
-ul
-{
+
+ul {
     list-style: none;
 }
 
-a
-{
+a {
     display: inline-block;
     text-decoration: none;
     padding-right: 10px;
     color: var(--color-neutra);
 }
 
-.container
-{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 5px;
@@ -74,8 +67,7 @@ a
 
 /*  HTML */
 /* header */
-header
-{
+header {
     background-color: var(--color-secondary);
     padding: 15px 0 10px 0;
     margin-bottom: 40px;
@@ -85,17 +77,16 @@ header
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow: 0 1px 3px #666;
 }
 
-#logo
-{
+#logo {
     width: 100px;
     vertical-align: middle;
 }
 
 /* main */
-main
-{
+main {
     margin-top: 100px;
     margin-bottom: 20px;
 }
@@ -106,20 +97,17 @@ main
     min-width: 250px;
 }
 
-.img-section
-{
+.img-section {
     position: relative;
 }
 
-.img-section img
-{
+.img-section img {
     width: 100%;
     display: block;
 }
 
 
-.heart
-{
+.heart {
     position: absolute;
     top: 10px;
     right: 0;
@@ -128,61 +116,51 @@ main
     padding: 10px;
 }
 
-.info
-{
+.info {
     position: absolute;
     left: 0;
     bottom: 40px;
 }
 
-.box
-{
+.box {
     color: var(--color-neutra);
     display: inline-block;
     padding: 5px;
 }
 
-.discount
-{
+.discount {
     background-color: var(--color-discount);
 }
 
-.sostenibility
-{
+.sostenibility {
     background-color: var(--color-sostenibility);
 }
 
-h3
-{
+h3 {
     font-size: 0.9em;
 }
 
-h4
-{
+h4 {
     text-transform: uppercase;
     font-size: 1.1em;
 }
 
-.price
-{
+.price {
     color: var(--color-discount);
     font-size: 0.9em ;
 }
 
-.right
-{
+.right {
     font-size: 1.1em;
 }
 
-.deleted
-{
+.deleted {
     text-decoration: line-through;
     font-size: 0.9em;
 }
 
 /* heart hover effect */
-.heart > span:hover
-{
+.heart > span:hover {
     color: var(--color-discount);
     cursor: pointer;
 }
@@ -192,6 +170,7 @@ h4
     position: relative;
     display: inline-block;
 }
+
 .card .back {
     display: none;
     position: absolute;
@@ -199,21 +178,20 @@ h4
     left: 0;
     z-index: 0;
 }
+
 .card:hover .back {
     display: inline;
 }
 
 
 /* footer */
-footer 
-{
+footer  {
     background-color: var(--color-primary);
     color: var(--color-neutra);
     padding: 20px;
 }
 
-footer ul
-{
+footer ul {
     padding: 6px 0;
 }
 
